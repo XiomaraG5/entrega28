@@ -25,7 +25,7 @@ export const CategoriasContainer= styled.div`
 
 export const CssJContainer= styled.div`
     display: flex;
-    width: 50%;
+    width: 70%;
     flex-direction: row;
     position: relative;
     justify-content: space-between;
@@ -35,12 +35,13 @@ export const Text= styled.p`
     color: #FFFFFE;
     font-weight: bold;
     text-align: center;
-    position: absolute;
+
 `
 
 export const Circulo= styled.div`
     border: 9px solid #DDDDDD;
     border-radius: 50%;
+    border-left:9px solid red;
 `
 
 export const ImgCategory= styled.img`
@@ -48,8 +49,8 @@ export const ImgCategory= styled.img`
     border-radius: 50%;
     max-height: 100%;
     max-width: 100%;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
 `
 
 export const ButtonContainer= styled.div`
@@ -59,19 +60,17 @@ export const ButtonContainer= styled.div`
     align-items: center;
     padding: 20px;
     width: 97.5%;
+    height: 30px;
     position:fixed ;
     bottom: 0;
 `
 
 export const Botones= styled.div`
-    background: none;    
-    
+    background: none;
 `
 
 export const ImgBttn= styled.img`
-    max-width: 100%;
-    max-height: 100%;
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
+    max-height: 50px; 
     padding: 5px;
 `

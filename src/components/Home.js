@@ -10,27 +10,28 @@ const Home = () => {
           </TitleContainer>
 
           <CategoriasContainer>
-              <Circulo>
-              <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643390360/worshop/Ellipse_9_gqjldn.png' alt='HTML' />
-               </Circulo>
-               
-                                
+              <div>
+                    <Circulo>
+                    <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Ellipse_9_xs1gib.png' alt='HTML' />
+                    </Circulo>
+              </div>
+              <Text>HTML</Text>                  
               
 
               <CssJContainer>
-                  <Circulo>
-                      <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643390360/worshop/css_wop8nc.png' alt='CSS' />                      
-                  </Circulo>
-                  
-                      
-                  
+                  <div>
+                        <Circulo>
+                            <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/css_ve8iym.png' alt='CSS' />
+                        </Circulo>
+                      <Text>CSS</Text>
+                  </div>
 
-                  <Circulo>
-                    <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643390360/worshop/js_gymhex.png' alt='CSS' />                    
-                  </Circulo>
-                  
-                      
-                  
+                  <div>
+                      <Circulo>
+                      <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/js_azalbz.png' alt='JS' />
+                      </Circulo>
+                      <Text>JS</Text>
+                  </div>
              </CssJContainer>
           </CategoriasContainer>
 
