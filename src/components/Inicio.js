@@ -1,12 +1,9 @@
-
-import React, { Component } from 'react';
+import React from 'react';
 import { Body, Contenedor, Img, H1, Button, Input, P, A  } from '../styles/InicioStyles';
 
-
-export default class Inicio extends Component {
-
-  render() {
-    return 
+const Inicio = () => {
+  return (
+    <div>
       <Body>
         <Contenedor>
           <Img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Color_Purple_Container_Yes_nrvkmv.png'/>
@@ -19,6 +16,10 @@ export default class Inicio extends Component {
         <Button>Normal</Button>
         <Button primary>Primary</Button>
       </Body>
-  }
-}
+
+  </div>
+  );
+};
+
+export default Inicio;
 
