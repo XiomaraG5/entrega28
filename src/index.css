@@ -19,4 +19,24 @@ body {
   background: var(--black); 
 }
 
+.headPreguntas{
+  flex-basis: 50%;
+}
 
+.cabeceraPre{
+  gap: 2%;
+  padding: 5%;
+  justify-items: center;
+  align-items: center;
+}
+.btn{
+  border: none;
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 700;
+  margin-top: 15%;
+}

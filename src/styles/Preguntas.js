@@ -13,12 +13,15 @@ width: 100%;
 export const Question = styled.div`
 display:flex;
 color: #FFF;
-padding: 1%;
-justify-content: space-evenly;
+padding: 1.4%;
+justify-content:space-between;
 width:80%;
 background-color: #232e35;
+margin: auto;
+border-radius: 5px;
+border: solid 1px #f2f2f2
 `
 
 export const Imagen = styled.img`
-width:25%;
+width:100%;
 `
