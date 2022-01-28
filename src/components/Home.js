@@ -1,40 +1,48 @@
 import React from 'react';
-import { CategoriasContainer, CssJContainer, Text, TitleContainer } from '../styles/HomeStyles';
+import { Link } from 'react-router-dom';
+import { Botones, ButtonContainer, CategoriasContainer, Circulo, CssJContainer, HomeContainer, ImgBttn, ImgCategory, Text, TitleContainer } from '../styles/HomeStyles';
 
 
 const Home = () => {
   return(
-      <div>
+      <HomeContainer>
           <TitleContainer>
               <h3>Practica tus conocimientos en la categoria que prefieras</h3>
           </TitleContainer>
 
           <CategoriasContainer>
               <div>
-              <img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Ellipse_9_xs1gib.png' alt='HTML' />
-              <Text>HTML</Text>                  
+                    <Circulo>
+                    <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Ellipse_9_xs1gib.png' alt='HTML' />
+                    </Circulo>
               </div>
+              <Text>HTML</Text>                  
+              
 
               <CssJContainer>
                   <div>
-                      <img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/css_ve8iym.png' alt='CSS' />
+                        <Circulo>
+                            <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/css_ve8iym.png' alt='CSS' />
+                        </Circulo>
                       <Text>CSS</Text>
                   </div>
 
                   <div>
-                      <img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/js_azalbz.png' alt='CSS' />
+                      <Circulo>
+                      <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/js_azalbz.png' alt='JS' />
+                      </Circulo>
                       <Text>JS</Text>
                   </div>
              </CssJContainer>
           </CategoriasContainer>
 
 
-          <div>
-            <button><img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/home_dzvtz7.png' /></button>
-            <button><img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/stadist_borcfw.png' /></button>
-            <button><img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/profile_amkdle.png' /></button>
-          </div>
-      </div>
+          <ButtonContainer>
+            <Botones><Link to={"/home"}><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/home_bk2c3h.png' /></Link></Botones>
+            <Botones><Link to={"/estadisticas"}><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/stadist_bw5izs.png' /></Link></Botones>
+            <Botones><Link to={"/registro"}><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/profile_y7umrz.png' /></Link></Botones>
+          </ButtonContainer>
+      </HomeContainer>
   );
 };
 

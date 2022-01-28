@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+
 import Home from '../components/Home';
-import { Html } from '../components/pregunta';
+import Inicio from '../components/Inicio';
 
 export const AppRouter = () => {
   return <div>
       <Router >          
              <Routes>
                 {/* <Route exact path="/" component={} /> */}
-                <Route exact path="/home" element={<Home />} />        
-                <Route exact path="/quiz" element={<Html/>} />        
+                <Route path="/home" element={<Home />} />               
+                <Route path="/inicio" element={<Inicio />} />         
              </Routes>
       </ Router >
   </div>;
