@@ -9,7 +9,7 @@ export default class Inicio extends Component {
     return 
       <Body>
         <Contenedor>
-          <Img></Img>
+          <Img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Color_Purple_Container_Yes_nrvkmv.png'/>
           <H1>Iniciar Sesion</H1>
           <Button>Continuar con Google</Button>
           <Input type="text" placeholder="Ingrese su correo electronico"></Input>
