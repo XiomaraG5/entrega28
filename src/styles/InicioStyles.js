@@ -7,7 +7,8 @@ export const Body = styled.body`
 `;
 export const Contenedor = styled.section`
     width: 100%;
-    padding: 4em;
+    margin-top: 20px;
+    gap: 2%;
 `;
 export const Img = styled.img`
     margin:auto;
