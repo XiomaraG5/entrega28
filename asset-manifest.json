@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/entrega28/static/css/main.239a35c9.chunk.css",
+    "main.js": "/entrega28/static/js/main.2ae61a1b.chunk.js",
+    "main.js.map": "/entrega28/static/js/main.2ae61a1b.chunk.js.map",
+    "runtime~main.js": "/entrega28/static/js/runtime~main.71928864.js",
+    "runtime~main.js.map": "/entrega28/static/js/runtime~main.71928864.js.map",
+    "static/js/2.8a089ec2.chunk.js": "/entrega28/static/js/2.8a089ec2.chunk.js",
+    "static/js/2.8a089ec2.chunk.js.map": "/entrega28/static/js/2.8a089ec2.chunk.js.map",
+    "index.html": "/entrega28/index.html",
+    "precache-manifest.a9a5f5c45d6da42e8b91f16a1ae61f65.js": "/entrega28/precache-manifest.a9a5f5c45d6da42e8b91f16a1ae61f65.js",
+    "service-worker.js": "/entrega28/service-worker.js",
+    "static/css/main.239a35c9.chunk.css.map": "/entrega28/static/css/main.239a35c9.chunk.css.map"
+  }
+}
