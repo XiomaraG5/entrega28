@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from '../components/Home';
+import { Html } from '../components/html/pregunta';
 import Inicio from '../components/Inicio';
 import Registro from '../components/Registro';
 
@@ -11,6 +12,7 @@ export const AppRouter = () => {
       <Router >          
              <Routes>
                 {/* <Route exact path="/" component={} /> */}
+                <Route path="/html" element={<Html />} /> 
                 <Route path="/home" element={<Home />} />               
 <<<<<<< HEAD
                 <Route path="/inicio" element={<Inicio />} />                  
