@@ -1,7 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Pregunta1 from '../components/CSS/Pregunta1';
+import Pregunta2 from '../components/CSS/Pregunta2';
+import Pregunta3 from '../components/CSS/Pregunta3';
 import Home from '../components/Home';
-import { Html } from '../components/html/pregunta';
 import Inicio from '../components/Inicio';
 import Registro from '../components/Registro';
 
@@ -12,14 +14,12 @@ export const AppRouter = () => {
       <Router >          
              <Routes>
                 {/* <Route exact path="/" component={} /> */}
-                <Route path="/html" element={<Html />} /> 
                 <Route path="/home" element={<Home />} />               
-<<<<<<< HEAD
-                <Route path="/inicio" element={<Inicio />} />                  
-=======
-                <Route path="/inicio" element={<Inicio />} />
-                <Route path="/Registro" element={<Registro />} />         
->>>>>>> e71df5d02863bae3fd19f1c70f0ff7c5016ae7e1
+                <Route path="/inicio" element={<Inicio />} />                
+                <Route path="/Registro" element={<Registro />} /> 
+                <Route path="/CSS/1" element={<Pregunta1 />}  />
+                <Route path="/CSS/2" element={<Pregunta2 />}  />
+                <Route path="/CSS/3" element={<Pregunta3 />}  />
              </Routes>
       </ Router >
   </div>;
