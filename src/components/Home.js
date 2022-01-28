@@ -42,6 +42,11 @@ const Home = () => {
             <Botones><Link to={"/estadisticas"}><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/stadist_bw5izs.png' /></Link></Botones>
             <Botones><Link to={"/registro"}><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/profile_y7umrz.png' /></Link></Botones>
           </ButtonContainer>
+
+
+          <div className='white'>
+                <div className='grid'></div>
+          </div>
       </HomeContainer>
   );
 };
