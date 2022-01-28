@@ -1,5 +1,7 @@
 
 import React, { Component } from 'react';
+import { Body, Contenedor, Img, H1, Button, Input, P, A  } from '../styles/InicioStyles';
+
 
 export default class Inicio extends Component {
 

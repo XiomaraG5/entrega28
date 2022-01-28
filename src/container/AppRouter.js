@@ -1,12 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import Inicio from '../components/Inicio';
 
 export const AppRouter = () => {
   return <div>
       <Router >
-          <Switch >
-            <Route exact path="/" component={} />
-          </Switch>
+          <Routes>
+              <Route exact path="/" component={<Inicio/>} />
+          </Routes>
       </ Router >
   </div>;
 };
