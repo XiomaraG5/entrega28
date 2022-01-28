@@ -10,9 +10,8 @@ export const Contenedor = styled.section`
     padding: 4em;
 `;
 export const Img = styled.img`
-    margin: auto;
-    margin-top: 100px;
-    margin-left: 650px;
+    margin:auto;
+    display:block;
 `;
 export const H1 = styled.h1`
     text-align: center;
@@ -20,16 +19,20 @@ export const H1 = styled.h1`
     color: #fff;
 `;
 export const Button = styled.button`
-    width: 100%;
+    width: 50%;
     color: #fff;
     background: #EF4565;
     font-size: 20px;
     padding: 15px 20px;
+    margin:auto;
+    display:block
 `;
 export const Input = styled.input`
     text-align: center;
-    width: 100%;
-    padding: 10px;
+    width: 47%;
+    padding: 15px 20px;
+    margin:auto;
+    display:block
 `;
 export const P = styled.p`
     text-align: center;
