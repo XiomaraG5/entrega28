@@ -41,7 +41,6 @@ export const Text= styled.p`
 export const Circulo= styled.div`
     border: 9px solid #DDDDDD;
     border-radius: 50%;
-    border-left:9px solid red;
 `
 
 export const ImgCategory= styled.img`

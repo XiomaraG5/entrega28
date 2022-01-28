@@ -9,7 +9,7 @@ export const AppRouter = () => {
       <Router >          
              <Routes>
                 {/* <Route exact path="/" component={} /> */}
-                <Route path="/home" element={<Home />} />
+                <Route path="/home" element={<Home />} />               
                 <Route path="/inicio" element={<Inicio />} />         
              </Routes>
       </ Router >
