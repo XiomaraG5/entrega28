@@ -1,40 +1,46 @@
 import React from 'react';
-import { CategoriasContainer, CssJContainer, Text, TitleContainer } from '../styles/HomeStyles';
+import { Botones, ButtonContainer, CategoriasContainer, Circulo, CssJContainer, HomeContainer, ImgBttn, ImgCategory, Text, TitleContainer } from '../styles/HomeStyles';
 
 
 const Home = () => {
   return(
-      <div>
+      <HomeContainer>
           <TitleContainer>
               <h3>Practica tus conocimientos en la categoria que prefieras</h3>
           </TitleContainer>
 
           <CategoriasContainer>
-              <div>
-              <img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Ellipse_9_xs1gib.png' alt='HTML' />
-              <Text>HTML</Text>                  
-              </div>
+              <Circulo>
+              <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643390360/worshop/Ellipse_9_gqjldn.png' alt='HTML' />
+               </Circulo>
+               
+                                
+              
 
               <CssJContainer>
-                  <div>
-                      <img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/css_ve8iym.png' alt='CSS' />
-                      <Text>CSS</Text>
-                  </div>
+                  <Circulo>
+                      <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643390360/worshop/css_wop8nc.png' alt='CSS' />                      
+                  </Circulo>
+                  
+                      
+                  
 
-                  <div>
-                      <img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/js_azalbz.png' alt='CSS' />
-                      <Text>JS</Text>
-                  </div>
+                  <Circulo>
+                    <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643390360/worshop/js_gymhex.png' alt='CSS' />                    
+                  </Circulo>
+                  
+                      
+                  
              </CssJContainer>
           </CategoriasContainer>
 
 
-          <div>
-            <button><img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/home_dzvtz7.png' /></button>
-            <button><img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/stadist_borcfw.png' /></button>
-            <button><img src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/profile_amkdle.png' /></button>
-          </div>
-      </div>
+          <ButtonContainer>
+            <Botones><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/home_bk2c3h.png' /></Botones>
+            <Botones><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/stadist_bw5izs.png' /></Botones>
+            <Botones><ImgBttn src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643389042/worshop/profile_y7umrz.png' /></Botones>
+          </ButtonContainer>
+      </HomeContainer>
   );
 };
 
