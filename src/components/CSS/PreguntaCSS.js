@@ -27,11 +27,11 @@ const Pregunta1 = () => {
         <>
     {
             <div key={id}>
-            <CssJContainer>
-                <div>
+            <CssJContainer className='cabeceraPre'>
+                <div className='headPreguntas'>
                     <Imagen src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/Property_1_3_y1jwbp.png' alt="avatar" />
                 </div>
-                <Text>
+                <Text className='headPreguntas'>
                     {pregunta}
                 </Text>
             </CssJContainer>
@@ -49,7 +49,7 @@ const Pregunta1 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button> comprobar</button>
+                <button className='btn'> comprobar</button>
             </Form>
             </div>
     }
