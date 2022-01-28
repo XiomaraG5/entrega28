@@ -51,7 +51,7 @@ export const Html = ()=>{
                     <input type="checkbox"></input>
                 </Question>
 
-                <button className='btn'> comprobar</button>
+             <a href='/html/1' className='btn'>   <button > comprobar</button> </a>
             </Form>
             </div>
     }
@@ -104,7 +104,7 @@ export const Html1 = ()=>{
                     <input type="checkbox"></input>
                 </Question>
 
-                <button className='btn'> comprobar</button>
+             <a href='/html/2' className='btn'>  <button > comprobar</button> </a> 
             </Form>
             </div>
     }
@@ -158,7 +158,7 @@ export const Html2 = ()=>{
                     <input type="checkbox"></input>
                 </Question>
 
-                <button className='btn'> comprobar</button>
+             <a href='/home' className='btn'>    <button > comprobar</button> </a>
             </Form>
             </div>
     }

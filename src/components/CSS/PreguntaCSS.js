@@ -49,7 +49,7 @@ const Pregunta1 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button className='btn'> comprobar</button>
+            <a href='/CSS/2' className='btn' >  <button > comprobar</button> </a>  
             </Form>
             </div>
     }
@@ -101,7 +101,7 @@ export const Pregunta2 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button> comprobar</button>
+                <a href='/CSS/1' className='btn'>  <button > comprobar</button> </a>  
             </Form>
             </div>
     }
@@ -153,7 +153,7 @@ export const Pregunta3 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button> comprobar</button>
+                <a href='/home' className='btn'>  <button > comprobar</button> </a>  
             </Form>
             </div>
     }

@@ -12,25 +12,28 @@ const Home = () => {
 
           <CategoriasContainer>
               <div>
-                    <Circulo>
+                 <a href='/html'>   <Circulo>
                     <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Ellipse_9_xs1gib.png' alt='HTML' />
                     </Circulo>
+                    </a>
               </div>
               <Text>HTML</Text>                  
               
 
               <CssJContainer>
                   <div>
-                        <Circulo>
+                     <a href='/CSS/1'> <Circulo>
                             <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/css_ve8iym.png' alt='CSS' />
                         </Circulo>
+                        </a>   
                       <Text>CSS</Text>
                   </div>
 
                   <div>
-                      <Circulo>
+                    <a href='/JS/1'>  <Circulo>
                       <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/js_azalbz.png' alt='JS' />
                       </Circulo>
+                      </a>
                       <Text>JS</Text>
                   </div>
              </CssJContainer>

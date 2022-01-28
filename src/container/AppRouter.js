@@ -18,18 +18,18 @@ export const AppRouter = () => {
       <Router >          
              <Routes>
                 {/* <Route exact path="/" component={} /> */}
-                <Route path="/html/2" element={<Html2 />} /> 
-                <Route path="/html/1" element={<Html1 />} /> 
-                <Route path="/html/" element={<Html />} /> 
-                <Route path="/home" element={<Home />} />               
-                <Route path="/inicio" element={<Inicio />} />                
-                <Route path="/Registro" element={<Registro />} /> 
-                <Route path="/CSS/1" element={<Pregunta1 />}  />
-                <Route path="/CSS/2" element={<Pregunta2 />}  />
-                <Route path="/CSS/3" element={<Pregunta3 />}  />
-                <Route path="/JS/1" element={<PreguntaJs1 />}  />
-                <Route path="/JS/2" element={<PreguntaJs2 />}  />
-                <Route path="/JS/3" element={<PreguntaJs3 />}  />
+                <Route exact path="/html/2" element={<Html2 />} /> 
+                <Route exact path="/html/1" element={<Html1 />} /> 
+                <Route exact path="/html/" element={<Html />} /> 
+                <Route exact path="/home" element={<Home />} />                   
+                <Route exact path="/Registro" element={<Registro />} /> 
+                <Route exact path="/CSS/1" element={<Pregunta1 />}  />
+                <Route exact path="/CSS/2" element={<Pregunta2 />}  />
+                <Route exact path="/CSS/3" element={<Pregunta3 />}  />
+                <Route exact path="/JS/1" element={<PreguntaJs1 />}  />
+                <Route exact path="/JS/2" element={<PreguntaJs2 />}  />
+                <Route exact path="/JS/3" element={<PreguntaJs3 />}  />
+                <Route exact path="/" element={<Inicio />} />            
              </Routes>
       </ Router >
   </div>;
