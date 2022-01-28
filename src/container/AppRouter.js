@@ -1,16 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Inicio from '../components/Inicio';
+
+import Home from '../components/Home';
 
 export const AppRouter = () => {
-  return(
-    <div>
-    <Router >
-        <Routes>
-            <Route  path="/" component={Inicio} />
-        </Routes>
-    </ Router >
-  </div>
-  )
- 
+  return <div>
+      <Router >          
+             <Routes>
+                {/* <Route exact path="/" component={} /> */}
+                <Route path="/home" element={<Home />} />        
+             </Routes>
+      </ Router >
+  </div>;
 };
