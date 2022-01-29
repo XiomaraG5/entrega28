@@ -39,9 +39,6 @@ export const P = styled.p`
     text-align: center;
     color: #fff;
 `;
-export const A = styled.a`
-    text-align: center;
-`;
 
 
 

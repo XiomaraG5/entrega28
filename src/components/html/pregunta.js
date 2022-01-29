@@ -1,6 +1,7 @@
-import { render } from '@testing-library/react';
+
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { endpoint } from '../../helpers/Url';
 import { CssJContainer, Text } from '../../styles/HomeStyles';
 import { Form, Imagen, Question } from '../../styles/Preguntas';
@@ -51,7 +52,7 @@ export const Html = ()=>{
                     <input type="checkbox"></input>
                 </Question>
 
-             <a href='/html/1' className='btn'>   <button > comprobar</button> </a>
+             <NavLink to={'/html/1'} className='btn'>   <button > comprobar</button> </NavLink>
             </Form>
             </div>
     }
@@ -104,7 +105,7 @@ export const Html1 = ()=>{
                     <input type="checkbox"></input>
                 </Question>
 
-             <a href='/html/2' className='btn'>  <button > comprobar</button> </a> 
+             <NavLink to={'/html/2'} className='btn'>  <button > comprobar</button> </NavLink> 
             </Form>
             </div>
     }
@@ -158,7 +159,7 @@ export const Html2 = ()=>{
                     <input type="checkbox"></input>
                 </Question>
 
-             <a href='/home' className='btn'>    <button > comprobar</button> </a>
+             <NavLink to={'/home'} className='btn'>    <button > comprobar</button> </NavLink>
             </Form>
             </div>
     }

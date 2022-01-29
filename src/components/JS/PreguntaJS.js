@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { endpoint } from '../../helpers/Url';
 import { CssJContainer, Text } from '../../styles/HomeStyles';
 import { Form, Imagen, Question } from '../../styles/Preguntas';
@@ -48,7 +49,7 @@ const PreguntaJs1 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button className='btn'> comprobar</button>
+             <NavLink to={'/JS/2'} className='btn'>      <button > comprobar</button> </NavLink>
             </Form>
             </div>
     }
@@ -100,7 +101,7 @@ export const PreguntaJs2 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button> comprobar</button>
+            <NavLink to={'/JS/3'} className='btn'>     <button> comprobar</button> </NavLink>
             </Form>
             </div>
     }
@@ -152,7 +153,7 @@ export const PreguntaJs3 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <button> comprobar</button>
+            <NavLink to={'/home'} className='btn' >  <button> comprobar</button> </NavLink> 
             </Form>
             </div>
     }

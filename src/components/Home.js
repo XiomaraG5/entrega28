@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { Botones, ButtonContainer, CategoriasContainer, Circulo, CssJContainer, HomeContainer, ImgBttn, ImgCategory, Text, TitleContainer } from '../styles/HomeStyles';
 
 
-const Home = () => {
+export const Home = () => {
   return(
       <HomeContainer>
           <TitleContainer>
@@ -12,28 +12,28 @@ const Home = () => {
 
           <CategoriasContainer>
               <div>
-                 <a href='/html'>   <Circulo>
+                 <NavLink to={'/html'}>   <Circulo>
                     <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/Ellipse_9_xs1gib.png' alt='HTML' />
                     </Circulo>
-                    </a>
+                    </NavLink>
               </div>
               <Text>HTML</Text>                  
               
 
               <CssJContainer>
                   <div>
-                     <a href='/CSS/1'> <Circulo>
+                     <NavLink to={'/CSS/1'}> <Circulo>
                             <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377834/worshop/css_ve8iym.png' alt='CSS' />
                         </Circulo>
-                        </a>   
+                        </NavLink>   
                       <Text>CSS</Text>
                   </div>
 
                   <div>
-                    <a href='/JS/1'>  <Circulo>
+                    <NavLink to={'/JS/1'}>  <Circulo>
                       <ImgCategory src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/js_azalbz.png' alt='JS' />
                       </Circulo>
-                      </a>
+                      </NavLink>
                       <Text>JS</Text>
                   </div>
              </CssJContainer>
@@ -54,4 +54,3 @@ const Home = () => {
   );
 };
 
-export default Home;

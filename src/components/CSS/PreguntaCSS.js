@@ -1,10 +1,11 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import { endpoint } from '../../helpers/Url';
 import { CssJContainer, Text } from '../../styles/HomeStyles';
 import { Form, Imagen, Question } from '../../styles/Preguntas';
 
-const Pregunta1 = () => {
+export const Pregunta1 = () => {
   
     const [question, setQuestion] = useState([]);
 
@@ -49,7 +50,7 @@ const Pregunta1 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-            <a href='/CSS/2' className='btn' >  <button > comprobar</button> </a>  
+            <NavLink to={'/CSS/2'} className='btn' >  <button > comprobar</button> </NavLink>  
             </Form>
             </div>
     }
@@ -57,6 +58,7 @@ const Pregunta1 = () => {
     )
     
 }
+
 export const Pregunta2 = () => {
     const [question, setQuestion] = useState([]);
 
@@ -79,11 +81,11 @@ export const Pregunta2 = () => {
         <>
     {
             <div key={id}>
-            <CssJContainer>
-                <div>
+            <CssJContainer className='cabeceraPre'>
+                <div className='headPreguntas'>
                     <Imagen src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/Property_1_3_y1jwbp.png' alt="avatar" />
                 </div>
-                <Text>
+                <Text className='headPreguntas'>
                     {pregunta}
                 </Text>
             </CssJContainer>
@@ -101,7 +103,7 @@ export const Pregunta2 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <a href='/CSS/1' className='btn'>  <button > comprobar</button> </a>  
+                <NavLink to={'/CSS/3'} className='btn'>  <button > comprobar</button> </NavLink>  
             </Form>
             </div>
     }
@@ -131,11 +133,11 @@ export const Pregunta3 = () => {
         <>
     {
             <div key={id}>
-            <CssJContainer>
-                <div>
+            <CssJContainer className='cabeceraPre'>
+                <div className='headPreguntas'>
                     <Imagen src='https://res.cloudinary.com/dfp8qduho/image/upload/v1643377835/worshop/Property_1_3_y1jwbp.png' alt="avatar" />
                 </div>
-                <Text>
+                <Text className='headPreguntas'>
                     {pregunta}
                 </Text>
             </CssJContainer>
@@ -153,7 +155,7 @@ export const Pregunta3 = () => {
                     <input type="checkbox"></input>
                 </Question>
 
-                <a href='/home' className='btn'>  <button > comprobar</button> </a>  
+                <NavLink to={'/home'} className='btn'>  <button > comprobar</button> </NavLink >  
             </Form>
             </div>
     }
@@ -161,4 +163,4 @@ export const Pregunta3 = () => {
     )
 };
 
-export default Pregunta1;
+
